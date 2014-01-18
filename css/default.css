@@ -22,6 +22,19 @@ body {
 	background: #fff;
 }
 
+h1 {font-family: 'Georgia';
+	font-weight:100;
+	color:#494747;
+}
+
+h2 {font-family: 'Georgia';
+	font-weight:100;
+	color:#BBBBBB;
+}
+
+	
+	
+
 a {
 	color: #888;
 	text-decoration: none;
@@ -35,8 +48,9 @@ a:active {
 /* Header Style */
 .main,
 .container > header {
+	text-align: center;
 	margin: 0 auto;
-	padding: 6em;
+	padding: 4em;
 }
 
 .container > header {
@@ -51,10 +65,11 @@ a:active {
 }
 
 .container > header span {
-	display: block;
-	font-size: 60%;
+	text-align:center;
+	display: inline;
+	font-size: 80%;
 	opacity: 0.5;
-	padding: 0 0 0.6em 0.1em;
+	padding: 0;
 }
 
 /* To Navigation Style */
@@ -127,7 +142,7 @@ a:active {
 
 .container > section {
 	margin: 0 auto;
-	padding: 5em 3em;
+	padding: 2em 1em;
 	text-align: center;
 	color: #fff;
 }
@@ -148,7 +163,7 @@ a:active {
 }
 
 .color-1 {
-	background: ##F8F8FF;
+	background: #FFF;
 }
 
 .color-2 {
